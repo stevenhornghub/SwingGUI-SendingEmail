@@ -60,7 +60,6 @@ public class EmailGUI extends JFrame {
                     }
 
                 }
-
                 if (strTextMessage.isEmpty()) {
                     JOptionPane.showMessageDialog(null, "You forgot to write message. ");
                 }
@@ -85,7 +84,6 @@ public class EmailGUI extends JFrame {
 
                     }
                 }
-
             }
         });
     }

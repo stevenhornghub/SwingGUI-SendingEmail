@@ -3,7 +3,6 @@ package accountconfig;
 /**
  * @author stevenhorng
  */
-
 public class MyAccount {
 
     public static final String MY_OUTLOOK = "weeklysteven98@outlook.com";  // My Outlook email

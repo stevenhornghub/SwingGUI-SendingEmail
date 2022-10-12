@@ -25,7 +25,6 @@ public class Server {
         properties.put("mail.smtp.port", MyAccount.SMTP_HOST_PORT);
         properties.put("mail.smtp.auth", "true");
 
-
         System.out.println("2nd ===> Get Mail Session..");
         // Get the Session object.
 
@@ -38,8 +37,6 @@ public class Server {
         };
 
         Session session = Session.getInstance(properties, auth);
-
-
         return session;
     }
 }

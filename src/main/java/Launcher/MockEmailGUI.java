@@ -4,7 +4,6 @@ package Launcher;
 import GUI.EmailGUI;
 import accountconfig.MyAccount;
 import server.Server;
-
 import javax.mail.*;
 import javax.mail.internet.*;
 import javax.swing.*;
